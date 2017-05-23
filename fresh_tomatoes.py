@@ -89,6 +89,7 @@ main_page_head = '''
 # The main page layout and title bar
 main_page_content = '''
   <body>
+  <title> Movie Trailer Website </title>
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
@@ -106,8 +107,8 @@ main_page_content = '''
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+          <div class="navbar-header"><h4>
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a></h4>
           </div>
         </div>
       </div>
