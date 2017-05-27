@@ -17,7 +17,7 @@ avatar = media.Movie(
 inception = media.Movie(
     "Inception",
     "An architect of a dream",
-    "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",   # noqa
     "https://www.youtube.com/watch?v=GuW4X4Gwq2w")
 
 shrek = media.Movie(
@@ -28,13 +28,15 @@ shrek = media.Movie(
 
 the_imitation_game = media.Movie(
     "The imitation game",
-    "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
+    "During World War II, mathematician Alan Turing" +
+    " tries to crack the enigma code with help from fellow mathematicians.",
     "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Imitation_Game_poster.jpg",  # noqa
     "https://www.youtube.com/watch?v=S5CjKEFb-sM")
 
 interstellar = media.Movie(
     "Interstellar",
-    "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival. ",
+    "A team of explorers travel through a wormhole in space in an attempt" +
+    " to ensure humanity's survival. ",
     "http://t1.gstatic.com/images?q=tbn:ANd9GcRf61mker2o4KH3CbVE7Zw5B1-VogMH8LfZHEaq3UdCMLxARZAB",  # noqa
     "https://www.youtube.com/watch?v=0vxOhd4qlnA")
 
@@ -46,5 +48,6 @@ movies = [
     shrek,
     the_imitation_game,
     interstellar]
-#open movie page in a browser
+
+# Pass the movie datastructure and open movie page in a browser
 fresh_tomatoes.open_movies_page(movies)
